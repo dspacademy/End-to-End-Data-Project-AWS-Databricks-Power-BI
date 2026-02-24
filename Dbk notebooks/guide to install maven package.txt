@@ -1,0 +1,15 @@
+------------------------------------------------------------------
+Install maven in cluster
+Step-by-Step: Install Redshift JDBC Driver in Databricks
+1. Go to your Databricks workspace
+- Open your workspace in the browser (e.g., https://<your-workspace>.databricks.com)
+2. Navigate to “Compute”
+- On the left sidebar, click Compute
+- Select the cluster you want to use (or create a new one)
+3. Click on the “Libraries” tab
+- Inside your cluster page, go to the Libraries tab
+4. Click “Install New”
+- Choose “Maven” as the library source
+5. Enter the Maven coordinate for the Redshift JDBC driver
+Paste this into the Maven coordinate field
+com.amazon.redshift:redshift-jdbc42:2.1.0.24
